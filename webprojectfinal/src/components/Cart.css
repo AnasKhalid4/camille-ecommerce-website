@@ -1,0 +1,171 @@
+.divcart{
+
+    height: auto;
+   
+    width: 100;
+    
+    
+    }
+    
+    
+    .ext{
+    
+    padding-left: 20%;
+    padding-right: 10%;
+    
+    font-family: Georgia,serif;
+    color: #555555;
+    font-size: 15px;
+    padding-bottom: 0% ;
+    
+    
+    }
+
+    .divhead{
+
+        height: 100px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding: 10%;
+    }
+
+
+    .head{
+   
+ 
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Georgia,serif; 
+    color:#555555 ;
+
+
+    }
+    
+
+
+    .divnames{
+
+      display: grid;
+      justify-content: center;
+      text-align: center;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin: 3%;
+      margin-left: 6%;
+      margin-right: 6%;
+      
+      
+      
+      
+      
+      }
+      
+      
+      .txtnames{
+      
+      padding: 1%;
+      padding-left: 8%;
+      padding-right: 8%;
+      font-family: Georgia,serif;
+      color: rgb(0, 0, 0);
+      font-size: 17px;
+      padding-bottom: 5% ;
+      
+      
+      }
+
+
+      .designcheckout{
+
+        height: 50px;
+        width:200px;
+        font-size: 15px;
+        color: #555555;
+        background-color: #F5DEDE;
+        border-color: #F5DEDE;
+        border-width: 0px;
+        border-radius: 5px;
+        margin-right: 10%;
+        
+        
+      font-weight: 500;
+
+
+
+      }
+
+  .empty{
+
+
+height: 100px;
+width: 100%;
+
+  }
+
+
+  .griding{
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-content: center;
+text-align: center;
+align-items: center;
+background-color: whitesmoke;
+  }
+
+  .emptycart{
+height: 500px;
+width: 100%;
+padding-top: 20%;
+padding-left: 25%;
+
+background-color: whitesmoke;
+  }
+
+
+ 
+
+
+
+    .circle {
+     
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 0 0 20px 0 wheat
+
+      }
+
+      .circle h1{
+
+
+        padding-top: 30%;
+      }
+
+
+      .cartname{
+
+
+        justify-content: center;
+        text-align: center;
+        padding-top: 4%;
+        color: gray;
+        background-color: whitesmoke;
+
+      }
+
+
+      @media screen and (max-width:768px) {
+        .griding{
+
+            display: grid;
+            grid-template-columns: 1fr ;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            background-color: whitesmoke;
+              }
+
+      }
+

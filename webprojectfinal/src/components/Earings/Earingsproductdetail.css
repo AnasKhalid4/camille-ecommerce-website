@@ -1,0 +1,173 @@
+.maindiv{
+
+
+    height: auto;
+    width: 100%;
+    display: grid;
+    
+    }
+    
+    .title{
+    
+    height:100px ;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia,serif;
+    color:	#28282B;
+    
+    
+    }
+    
+    
+    .flexdiv{
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:white;
+    height: auto;
+    width: 100%;
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    .pic{
+    height:auto;
+     width:100%;
+    
+     background-color: white;
+    
+    
+    }
+    
+    
+    
+    .pic img{
+    
+      
+    
+    
+    width: 100%;
+    height:auto;
+      
+    
+    
+    
+    
+    }
+    
+    
+    .detail{
+    
+      width:100%px;
+      height: auto;
+      justify-self: center;
+      padding: 10%;
+      
+     
+     
+     }
+    
+     .detail text{
+    
+      
+      font-weight: 500;
+      font-size:20px;
+      font-family: Georgia,serif;
+      color: #555555;
+    
+      
+     
+        
+      
+      
+      
+      
+      }
+    
+    
+    .design{
+        
+        height: 50px;
+        width:350px;
+        font-size: 15px;
+        color: #555555;
+        background-color: #F5DEDE;
+        border-color: #F5DEDE;
+        border-width: 0px;
+        border-radius: 5px;
+      font-weight: 500;
+     
+      }
+    
+       .design:hover{
+    
+    background-color:#F1C8C9;
+    
+      }
+    
+    
+      .counter{
+    
+       height:20px;
+       width:20px;
+       color:black;
+       background-color:white;
+       font-size: 15px;
+      
+       border: 0.5px solid black;
+       
+       
+      }
+    
+    
+    
+    
+      .counter:hover{
+    
+        background-color: azure;
+      }
+    
+    
+    
+      .detail p{
+    
+      
+        font-weight: 100;
+        font-size:15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #555555;    
+        }
+    
+    
+    
+    
+      
+    
+    
+     @media screen and (max-width:768px) {
+    
+      .flexdiv{
+    
+        
+        grid-template-columns: 1fr ;
+        
+        
+        
+        
+        }
+    
+    
+       
+          
+    
+      
+     }
+    
+    

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "navdropdown": "^1.0.0",
+    "react-css-dropdown": "^1.1.2"
+  }
+}

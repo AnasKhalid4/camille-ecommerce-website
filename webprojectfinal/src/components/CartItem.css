@@ -1,0 +1,61 @@
+.maindiv{
+height: auto;
+width: 100%;
+
+}
+
+.div1{
+
+display: grid;
+justify-content: center;
+text-align: center;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+border-bottom:1px solid #3b3c36 ;
+margin: 3%;
+margin-left: 6%;
+margin-right: 6%;
+
+
+
+
+
+}
+
+
+.txt{
+
+padding: 1%;
+padding-left: 8%;
+padding-right: 8%;
+font-family: Georgia,serif;
+color: #555555;
+font-size: 15px;
+padding-bottom: 5% ;
+
+
+}
+
+.button:hover{
+
+color: red;
+
+}
+
+
+@media screen and (max-width:768px) {
+
+
+    .txt{
+
+        padding: 0%;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-family: Georgia,serif;
+      
+        font-size: 12px;
+        padding-bottom: 0% ;
+        
+
+
+}
+}

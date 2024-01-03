@@ -1,0 +1,52 @@
+.pagination {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    gap: 10px;
+}
+
+.pagination .page-num{
+padding: 8px 15px;
+cursor: pointer;
+border-radius: 3px;
+font-weight: 400;
+}
+.pagination .page-num:hover{
+background-color: rgb(226, 196, 213);
+color: aliceblue;   
+}
+.pagination .active{
+ background-color: rgb(226, 196, 213);
+}
+
+
+
+
+
+@media screen and (max-width:800px) {
+    
+    .pagination {
+     
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5rem;
+        gap: 5px;
+    }
+
+    .pagination .page-num{
+padding: 8px 15px;
+cursor: pointer;
+border-radius: 3px;
+font-weight: 400;
+}
+
+    }
+
+
+
+
